@@ -40,6 +40,11 @@ return {
     },
     -- enable servers that you already have installed without mason
     servers = {
+      "clojure_lsp",
+      "tsserver",
+      "lua_ls",
+      "typos_ls"
+      
       -- "pyright"
     },
     -- customize language server configuration options passed to `lspconfig`
